@@ -30,7 +30,21 @@ This is a simple event logging system built with Express, MongoDB, and Socket.IO
 ### Steps to Set Up
 
 1. Clone the repository:
+https://github.com/SAMBOJURAVITEJA/cargosfullstackassignment.git 
+ cd cargosfullstackassignment
 
-   ```bash
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
+2.Install the necessary dependencies
+npm install
+
+3.Create a .env file at the root of the project and add the  configuration
+
+4.start the server 
+npm start
+
+5.Visit the following endpoints:
+
+POST /events: To create a new event log.
+GET /getEvents: To fetch the latest 50 event logs.
+GET /dashboard: To view the real-time event log dashboard.
+
+
